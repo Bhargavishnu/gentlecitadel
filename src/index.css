@@ -1,0 +1,23 @@
+
+body {
+      background-color: black;
+    
+    }
+    body > .grid {
+      height: 100%;
+        
+    
+    }
+    .image {
+      margin-top: -100px;
+    }
+    .column {
+      max-width: 500px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        
+       .column {
+      max-width: 70%;
+    } 
+    }
